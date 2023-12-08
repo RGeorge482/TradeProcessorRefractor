@@ -7,13 +7,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author 35386
- */
+
 public class CSVReader implements DataInput {
     BufferedReader myReader;
     List<String> lines = new ArrayList<>();
+ 
+    @Override
     public List<String> getData() throws IOException {
        myReader = new BufferedReader(new FileReader("trades.csv"));
        String inputLine = myReader.readLine();
