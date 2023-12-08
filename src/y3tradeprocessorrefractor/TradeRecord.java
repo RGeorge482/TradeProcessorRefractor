@@ -1,21 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package y3tradeprocessorrefractor;
 
-/**
- *
- * @author 35386
- */
 public class TradeRecord {
     private String sourceCurrencyCode;
     private String destinationCurrencyCode;
     private int tradeAmount;
-    private double tradePrice;
-    
-    
+    private double tradePrice;   
 
     public TradeRecord(String sourceCurrencyCode, String destinationCurrencyCode, int tradeAmount, double tradePrice) {
         this.sourceCurrencyCode = sourceCurrencyCode;
