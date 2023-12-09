@@ -12,8 +12,8 @@ import static y3tradeprocessorrefractor.Database.DB_URL;
 public class DatabaseOutput extends Database implements DataOutput {
     @Override
     public void saveData(List<TradeRecord> trades) throws IOException {
-        //boolean dbTableReady = Database.setupDatabase();
-        //if (!dbTableReady) return;
+        boolean dbTableReady = Database.setupDatabase();
+        if (!dbTableReady) return;
         try (Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
         Statement stmt = conn.createStatement();) {
             String sql;

@@ -23,7 +23,10 @@ public class TradeProcessor {
         // Part 1
         System.out.println("Start");
         DataInputFactory dataInputFactory = new DataInputFactory();
-        DataInput input = dataInputFactory.makeDataInput(DataIOTypes.CSV);
+        DataIOMenu ioMenu = new DataIOMenu();
+        DataIOTypes type = ioMenu.makeMenu("Where do you want to get the data from?");
+        //DataInput input = dataInputFactory.makeDataInput(DataIOTypes.CSV);
+        DataInput input = dataInputFactory.makeDataInput(type);
         List<String> lines = input.getData();
                               
         // Part 2
@@ -32,12 +35,12 @@ public class TradeProcessor {
         // Validates before parsing
         List<TradeRecord> trades = tradeParser.parseInputData();
         
-        //Part 4
-        boolean dbTableReady = Database.setupDatabase();
-        if(dbTableReady) {
-            // Part 5
-            DataOutput output = new DatabaseOutput();
-            output.saveData(trades);
-        }     
-     }   
+        //Part 4    
+        // Part 5
+        DataOutputFactory dataOutputFactory = new DataOutputFactory();
+        type = ioMenu.makeMenu("Where do you want to save the data to?");
+        //DataOutput output = dataOutputFactory.makeDataOutput(DataIOTypes.DATABASE);
+        DataOutput output = dataOutputFactory.makeDataOutput(type);
+        output.saveData(trades);
+    }   
 }

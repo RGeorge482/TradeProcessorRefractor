@@ -6,7 +6,7 @@ import java.util.List;
 
 public class TradeParser {
     private List<String> inputData;
-    private ArrayList<TradeRecord> parsedTrades;
+    private ArrayList<TradeRecord> parsedTrades = new ArrayList<>();
     private Validator validator = new Validator(); 
     
 
