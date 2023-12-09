@@ -9,6 +9,6 @@ package y3tradeprocessorrefractor;
  *
  * @author 35386
  */
-public class DataInputTypes {
+public class DataOutputFactory {
     
 }

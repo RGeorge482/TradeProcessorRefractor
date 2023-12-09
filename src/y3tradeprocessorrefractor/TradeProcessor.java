@@ -22,7 +22,8 @@ public class TradeProcessor {
             throws IOException, ClassNotFoundException, InstantiationException, IllegalAccessException {
         // Part 1
         System.out.println("Start");
-        DataInput input = new CSVReader();
+        DataInputFactory dataInputFactory = new DataInputFactory();
+        DataInput input = dataInputFactory.makeDataInput(DataIOTypes.CSV);
         List<String> lines = input.getData();
                               
         // Part 2
@@ -34,8 +35,9 @@ public class TradeProcessor {
         //Part 4
         boolean dbTableReady = Database.setupDatabase();
         if(dbTableReady) {
-            
-        }
-     
+            // Part 5
+            DataOutput output = new DatabaseOutput();
+            output.saveData(trades);
+        }     
      }   
 }
