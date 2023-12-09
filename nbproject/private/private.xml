@@ -3,8 +3,20 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/35386/OneDrive/Desktop/BcCCt/Y3/Sem1/AlgorithmsArch&amp;DesignPatterns/javaCode/Y3TradeProcessorRefractor/src/y3tradeprocessorrefractor/Y3TradeProcessorRefractor.java</file>
+            <file>file:/C:/Users/35386/OneDrive/Desktop/BcCCt/Y3/Sem1/AlgorithmsArch&amp;DesignPatterns/javaCode/Y3TradeProcessorRefractor/src/y3tradeprocessorrefractor/ValidationDecorator.java</file>
+            <file>file:/C:/Users/35386/OneDrive/Desktop/BcCCt/Y3/Sem1/AlgorithmsArch&amp;DesignPatterns/javaCode/Y3TradeProcessorRefractor/src/y3tradeprocessorrefractor/TradePriceValidator.java</file>
+            <file>file:/C:/Users/35386/OneDrive/Desktop/BcCCt/Y3/Sem1/AlgorithmsArch&amp;DesignPatterns/javaCode/Y3TradeProcessorRefractor/src/y3tradeprocessorrefractor/ValidateDataLengthDecorator.java</file>
+            <file>file:/C:/Users/35386/OneDrive/Desktop/BcCCt/Y3/Sem1/AlgorithmsArch&amp;DesignPatterns/javaCode/Y3TradeProcessorRefractor/src/y3tradeprocessorrefractor/CSVReader.java</file>
+            <file>file:/C:/Users/35386/OneDrive/Desktop/BcCCt/Y3/Sem1/AlgorithmsArch&amp;DesignPatterns/javaCode/Y3TradeProcessorRefractor/src/y3tradeprocessorrefractor/ValidateTradeCurrencyLength.java</file>
             <file>file:/C:/Users/35386/OneDrive/Desktop/BcCCt/Y3/Sem1/AlgorithmsArch&amp;DesignPatterns/javaCode/Y3TradeProcessorRefractor/src/y3tradeprocessorrefractor/TradeRecord.java</file>
+            <file>file:/C:/Users/35386/OneDrive/Desktop/BcCCt/Y3/Sem1/AlgorithmsArch&amp;DesignPatterns/javaCode/Y3TradeProcessorRefractor/src/y3tradeprocessorrefractor/DataValidation.java</file>
+            <file>file:/C:/Users/35386/OneDrive/Desktop/BcCCt/Y3/Sem1/AlgorithmsArch&amp;DesignPatterns/javaCode/Y3TradeProcessorRefractor/src/y3tradeprocessorrefractor/DataInput.java</file>
+            <file>file:/C:/Users/35386/OneDrive/Desktop/BcCCt/Y3/Sem1/AlgorithmsArch&amp;DesignPatterns/javaCode/Y3TradeProcessorRefractor/src/y3tradeprocessorrefractor/ValidateDataLength.java</file>
+            <file>file:/C:/Users/35386/OneDrive/Desktop/BcCCt/Y3/Sem1/AlgorithmsArch&amp;DesignPatterns/javaCode/Y3TradeProcessorRefractor/src/y3tradeprocessorrefractor/Y3TradeProcessorRefractor.java</file>
+            <file>file:/C:/Users/35386/OneDrive/Desktop/BcCCt/Y3/Sem1/AlgorithmsArch&amp;DesignPatterns/javaCode/Y3TradeProcessorRefractor/src/y3tradeprocessorrefractor/ValidateTradeCurrencyLengthDecorator.java</file>
+            <file>file:/C:/Users/35386/OneDrive/Desktop/BcCCt/Y3/Sem1/AlgorithmsArch&amp;DesignPatterns/javaCode/Y3TradeProcessorRefractor/src/y3tradeprocessorrefractor/Validate.java</file>
+            <file>file:/C:/Users/35386/OneDrive/Desktop/BcCCt/Y3/Sem1/AlgorithmsArch&amp;DesignPatterns/javaCode/Y3TradeProcessorRefractor/src/y3tradeprocessorrefractor/Validator.java</file>
+            <file>file:/C:/Users/35386/OneDrive/Desktop/BcCCt/Y3/Sem1/AlgorithmsArch&amp;DesignPatterns/javaCode/Y3TradeProcessorRefractor/src/y3tradeprocessorrefractor/TradeAmontValidator.java</file>
         </group>
     </open-files>
 </project-private>
